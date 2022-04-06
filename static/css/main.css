@@ -1,0 +1,160 @@
+html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(102, 226, 248);
+    background-image: linear-gradient(to bottom,rgb(130, 240, 235),rgb(22, 132, 121));
+    color: rgb(25, 21, 15);
+    min-width: 20%;
+    max-width: 70%;
+    display: block;
+    position: absolute;
+    margin: 0 30% ;
+    min-height: 1000px;
+}
+
+body {
+    min-height: 300px;
+    overflow-y: scroll;
+    background-color: white;
+    margin: 10px;
+    width: fit-content; 
+    
+}
+
+h1 {
+    margin-top: 0;
+    padding: 8px;
+    float: left;
+    font-family:cursive;
+}
+
+h4 {
+    
+    position: absolute;
+    margin: 0;
+}
+
+::placeholder {
+    font-size: large;
+    text-align: center;
+}
+
+.content {
+    margin: 10px;    
+    width: 400px;
+    min-width: max-content;
+    align-self: auto;
+    align-items: center;  
+    margin-bottom: 10px;  
+}
+ 
+table, td, th {
+    border: 4px 2px rgb(0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+th {
+    height: 30px;
+    background: rgb(58, 56, 56);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    border: 1px solid rgb(167, 164, 164);
+    padding: 10px;    
+}
+
+
+tr {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(249, 239, 241);
+    color: rgb(39, 38, 38);
+    font-size: larger;
+} 
+
+tr:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+
+tr:nth-child(odd) {
+    background-color: #ffdada;
+}
+tr:nth-child(odd):hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.form {
+    margin: 10px;
+    height: 20px;
+}
+
+#content {
+    width: 87%;
+    float: left;
+    margin: auto;
+    background-color: rgb(244, 230, 230);
+    margin-bottom: 15px;
+    height: 60px;
+    border: 1px solid rgb(83, 78, 78);   
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#content:hover{
+    float:inline-start;
+    background-color:rgb(233, 233, 233) ;
+    
+}
+
+#button {
+    float: right;
+    margin: auto;
+    margin-right: 2px;  
+    border-radius: 1px;
+    height: 35px;
+    border: 0;
+    font-size:34px;
+    color: rgb(16, 12, 16);
+    background-color: rgb(255, 255, 255);
+}
+
+#delete {
+    color: rgb(247, 78, 78);
+}
+#update {
+    color: green;
+}
+
+a {
+    color: white;
+    font-size: large;
+    font-family: monospace;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: double;
+    
+    font-size: large;
+    font-weight: 500;
+}
+#updatepage {
+    float:left;
+    width: 40%;
+    font-size: larger;
+    color: #c3c1c1;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+#updatepage:hover{
+    background-color: rgb(180, 172, 172);
+    color: black;
+
+}
